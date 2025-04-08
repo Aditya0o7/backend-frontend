@@ -7,7 +7,7 @@ const View = () => {
         handleview();
     },[])
     const handleview= async () => {
-        const res=await axios.get('https://fsdbackenddsb2.onrender.com/users');
+        const res=await axios.get('https://backend-frontend-1-oy8z.onrender.com');
         setUsers(res.data);
         console.log(users);
     }
